@@ -2,10 +2,10 @@ myApp.factory('AnchorFactory', ['$rootScope', 'StellarApi',
   function($scope, StellarApi) {
     var obj = {
       anchor : {
-        'ripplefox.com' : {domain  : 'ripplefox.com', parsing : false, parsed  : false}
+        'apay.io' : {domain  : 'apay.io', parsing : false, parsed  : false}
       },
       address : {
-        'GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX' : {domain : 'ripplefox.com', parsing: false, parsed: false}
+        'GCQTGZQQ5G4PTM2GL7CDIFKUBIPEC52BROAQIAPW53XBRJVN6ZJVTG6V' : {domain : 'apay.io', parsing: false, parsed: false}
       }
     };
 
