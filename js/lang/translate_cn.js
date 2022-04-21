@@ -271,7 +271,7 @@ var translate_cn = {
   can_send  : '你可以发送',
 
   Stellar : '恒星',
-  stellar_desktop_client : '恒星桌面钱包',
+  stellar_desktop_client : 'RuvPay 錢包',
   app_open_source  : '钱包开源。',
   app_safe_notice  : '密钥保存在本地，丢失不可恢复！一定要备份，安全自己负责。',
   app_feedback     : '有建议可到社区QQ群676552869里讨论。',

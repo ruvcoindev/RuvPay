@@ -1,7 +1,7 @@
 {
-  "name": "FoxletStellar",
-  "version": "6.0.0",
-  "description": "Foxlet destktop client for Stellar",
+  "name": "RuvPay",
+  "version": "1.0.0",
+  "description": "RuvPay destktop client for Stellar",
   "main": "main.js",
   "chromium-args": "--disable-gpu",
   "scripts": {
@@ -12,7 +12,7 @@
     "linux": "build --tasks linux-x86,linux-x64 --mirror https://npm.taobao.org/mirrors/nwjs/ .",
     "start": "run --x64 --mirror https://npm.taobao.org/mirrors/nwjs/ ."
   },
-  "author": "ripplefox",
+  "author": "ruvcoindev",
   "license": "ISC",
   "devDependencies": {
     "nwjs-builder-phoenix": "^1.15.0"
@@ -37,12 +37,12 @@
   "build": {
     "nwVersion": "0.45.2",
     "win": {
-      "productName": "FoxletStellar",
-      "companyName": "RippleFox",
+      "productName": "RuvPay",
+      "companyName": "RuvChain",
       "icon": "./img/rocket.ico"
     },
     "mac": {
-      "displayName": "FoxletStellar",
+      "displayName": "RuvPay",
       "icon": "./img/rocket.icns"
     }
   },

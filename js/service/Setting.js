@@ -151,7 +151,7 @@ myApp.factory('SettingFactory', function($window) {
       $window.localStorage['fed_bitcoin'] = domain;
     },
     getFedBitcoin : function(url) {
-      return $window.localStorage['fed_bitcoin'] || 'naobtc.com';
+      return $window.localStorage['fed_bitcoin'] || 'apay.io';
     },
 
     getTradepair : function() {
@@ -161,8 +161,8 @@ myApp.factory('SettingFactory', function($window) {
         return {
           base_code   : this.getCurrentNetwork().coin.code,
           base_issuer : '',
-          counter_code   : 'CNY',
-          counter_issuer : 'GAREELUB43IRHWEASCFBLKHURCGMHE5IF6XSE7EXDLACYHGRHM43RFOX'
+          counter_code   : 'BTC',
+          counter_issuer : 'GCQTGZQQ5G4PTM2GL7CDIFKUBIPEC52BROAQIAPW53XBRJVN6ZJVTG6V'
         }
       }
     },
@@ -177,7 +177,7 @@ myApp.factory('SettingFactory', function($window) {
     },
 
     getBridgeService : function() {
-      return $window.localStorage['bridge_service'] || 'ripplefox.com';
+      return $window.localStorage['bridge_service'] || 'apay.io';
     },
     setBridgeService : function(anchor_name) {
       $window.localStorage['bridge_service'] = anchor_name;

@@ -11,7 +11,7 @@ body {
 }
 
 .foximg {
-	background-image: linear-gradient(10deg, rgba(146, 145, 224, 0.85), rgba(150, 218, 219, 0.9)), url(../img/foxstellar.png);
+	background-image: linear-gradient(10deg, rgba(146, 145, 224, 0.85), rgba(150, 218, 219, 0.9)), url(../img/ruvchain.png);
 	background-repeat: no-repeat;
 	background-position: right bottom 60px;
 }
