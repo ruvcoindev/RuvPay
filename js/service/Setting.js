@@ -177,7 +177,7 @@ myApp.factory('SettingFactory', function($window) {
     },
 
     getBridgeService : function() {
-      return $window.localStorage['bridge_service'] || 'apay.io';
+      return $window.localStorage['bridge_service'] || 'naobtc.com';
     },
     setBridgeService : function(anchor_name) {
       $window.localStorage['bridge_service'] = anchor_name;
