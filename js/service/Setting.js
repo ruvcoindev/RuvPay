@@ -151,7 +151,7 @@ myApp.factory('SettingFactory', function($window) {
       $window.localStorage['fed_bitcoin'] = domain;
     },
     getFedBitcoin : function(url) {
-      return $window.localStorage['fed_bitcoin'] || 'apay.io';
+      return $window.localStorage['fed_bitcoin'] || 'naobtc.com';
     },
 
     getTradepair : function() {
@@ -177,7 +177,7 @@ myApp.factory('SettingFactory', function($window) {
     },
 
     getBridgeService : function() {
-      return $window.localStorage['bridge_service'] || 'naobtc.com';
+      return $window.localStorage['bridge_service'] || 'ripplefox.com';
     },
     setBridgeService : function(anchor_name) {
       $window.localStorage['bridge_service'] = anchor_name;
