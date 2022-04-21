@@ -22,7 +22,7 @@ RuvPay allows you to encrypt your secret key and store it as a file locally on y
 You should have Node.js installed. If not, install it ([Node version manager](https://github.com/creationix/nvm) is recommended).
 
 - Run `npm install` to prepare.
-  RUN `rm -rf node_modules/sodium-native/tmp ` \\ if erorr with libsodium
+-  RUN `rm -rf node_modules/sodium-native/tmp ` \\ if erorr with libsodium
 - Run `npm start` to develop.
 - Run `npm run dist` to build. You can use `npm run mac`, `npm run win` or `npm run linux` to build application according your system.
 
